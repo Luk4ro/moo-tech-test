@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
     "target": "ES2022",
     "lib": ["ES2023"],
     "module": "ESNext",
@@ -16,7 +17,9 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "types": ["@testing-library/jest-dom"]
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts", "tests"]
 }
